@@ -1,0 +1,31 @@
+# Generated build/app/icon files
+.build/
+.swiftpm/
+dist/
+Assets/AppIcon.iconset/
+Assets/AppIcon.icns
+*.dSYM/
+.DS_Store
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+local.properties
+adbkey*
+.emulator_console_auth_token
+*.pem
+*.p12
+*.mobileprovision
+# SDK, virtual devices, guest apps/data and personal profiles
+.android/
+*.avd/
+sdk/
+system-images/
+snapshots/
+*.qcow2
+*.img
+*.apk
+*.aab
+profiles.json
+logs/
+*.log

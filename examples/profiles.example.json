@@ -1,0 +1,24 @@
+[
+  {
+    "package": "com.example.game",
+    "name": "예시 게임",
+    "mappings": [
+      {"id": "00000000-0000-4000-8000-000000000001", "key": "k", "x": 540, "y": 960}
+    ],
+    "macros": [
+      {
+        "id": "00000000-0000-4000-8000-000000000002",
+        "name": "예시 클릭",
+        "steps": [
+          {"id": "00000000-0000-4000-8000-000000000003", "x": 540, "y": 960}
+        ],
+        "repeatCount": 3,
+        "repeatForever": false,
+        "continueInBackground": false,
+        "intervalMs": 500,
+        "referenceWidth": 1080,
+        "referenceHeight": 1920
+      }
+    ]
+  }
+]
